@@ -46,12 +46,12 @@ a:hover{
     align-items: center;
 }
 
-.login, .registrar, .registerDate{
+.login, .registrar {
     display: grid;
-    text-align: left;
+    text-align: center;
     padding: 25px;
     width: 400px;
-    margin: 100px 500px 20px;
+    margin: 100px 300px 20px;
     background: rgb(42, 161, 126);
     border-radius: 10px;
 }
@@ -59,15 +59,18 @@ a:hover{
 .logo {
     font-weight: 700pt;
     color: white;
-    letter-spacing: -2px;
+    letter-spacing: 2px;
     text-transform: uppercase;
+    text-align: left;
 }
 
 .logo-wrapper {
     width: 30%;
-    text-align: left;
-    display: inline-block;
+    text-align: stretch;
+    display: inline-grid;
     align-items: stretch;
+    text-align: initial;
+    padding-bottom: center;
 }
 
 .menu{

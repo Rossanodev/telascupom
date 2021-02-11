@@ -14,41 +14,28 @@
     <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link rel="stylesheet" href="css/normalize.css"/>
-    <link rel="stylesheet" href="estilo.css">
     
+    <link rel="stylesheet" href="../Estilo/estilo.css">
+
     <title>Tela cupom</title>
     
-</head>
+</head>Estilo/
 <body>
     <div class="container">
         <div class="header">
             <nav class="logo-wrapper">
-                <h1 class="logo">Cupom Smart</h1>
+                <h1 class="logo">Cupom System</h1>
             </nav>
             <nav class="desktop">       
                 <ul class="menu">
                     <li><a href="#">Home</a></li>
-                    <li><a href="login.html">Register</a></li>
+                    <li><a href="login.html">Login</a></li>
                 </ul>
             </nav>
             <nav class="mobile">
                 <div class="mobile-menu" onclick="onClick();">Menu</div>
                 <div class="mobile-menu-item"><a href="#">Home</a></div>
-                <div class="mobile-menu-item"><a href="login.html">Register</a></div> 
+                <div class="mobile-menu-item"><a href="login.html">Login</a></div> 
             </nav>
         </div>
-        <div class="main">
-            <div class="login">
-                <p>Login</p>
-                <p>E-mail: <input type="text" name="name" id="email" placeholder="Email"></p>
-                <p>Password: <input type="text" name="name" id="password" placeholder="password"></p>
-                <p><input type="checkbox" >Remember Me</p>
-                <input type="submit" value="Sign in" onclick="registrar()">
-            </div>
-        </div>
-    </div>
-
-</body>
-    <script src="script.js"></script>
-</html>
+        

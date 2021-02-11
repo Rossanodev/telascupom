@@ -14,8 +14,7 @@
     <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link rel="stylesheet" href="css/normalize.css"/>
-    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="../Estilo/estilo.css">
     
     <title>Tela cupom</title>
     
@@ -24,26 +23,28 @@
     <div class="container">
         <div class="header">
             <nav class="logo-wrapper">
-                <h1 class="logo">Cupom Smart</h1>
+                <h1 class="logo">Sistema de Cupom</h1>
             </nav>
-            <nav class="desktop" style="width: 50%;">       
+            <nav class="desktop">           
                 <ul class="menu">
-                    <h1>Welcome, User</h1>
+                    <li><a href="./../index.html">Home</a></li>
+                    <li><a href="./Login/login.html">Login</a></li>
+                    <li><a href="./Registrar/register.html">Registrar</a></li>
                 </ul>
             </nav>
             <nav class="mobile">
                 <div class="mobile-menu" onclick="onClick();">Menu</div>
                 <div class="mobile-menu-item"><a href="#">Home</a></div>
-                <div class="mobile-menu-item"><a href="#">Login</a></div> 
+                 
             </nav>
         </div>
         <div class="main">
-            <div class="registrar">
-                <p>Registrar</p>
+            <div class="login">
+                <p>Login</p>
                 <p>E-mail: <input type="text" name="name" id="email" placeholder="Email"></p>
                 <p>Password: <input type="text" name="name" id="password" placeholder="password"></p>
-                <p>confirm: <input type="text" name="name" id="confirm" placeholder="password"></p>
-                <input type="submit" value="Register" onclick="registrar()">
+                <p><input type="checkbox" >Remember Me</p>
+                <input type="submit" value="Sign in" onclick="registrar()">
             </div>
         </div>
     </div>
